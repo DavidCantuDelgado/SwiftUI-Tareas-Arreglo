@@ -13,6 +13,12 @@
 		6330F6E5243439F4003C132B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6E4243439F4003C132B /* Assets.xcassets */; };
 		6330F6E8243439F4003C132B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6E7243439F4003C132B /* Preview Assets.xcassets */; };
 		6330F6EB243439F4003C132B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6E9243439F4003C132B /* LaunchScreen.storyboard */; };
+		6330F6F424343A3D003C132B /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6F324343A3D003C132B /* Baloo2-Bold.ttf */; };
+		6330F6F624343A47003C132B /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6F524343A47003C132B /* Baloo2-Regular.ttf */; };
+		6330F6F824343A5E003C132B /* Colores.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6330F6F724343A5E003C132B /* Colores.xcassets */; };
+		6330F6FA24343B95003C132B /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330F6F924343B95003C132B /* Categoria.swift */; };
+		6330F6FC24343C24003C132B /* Peso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330F6FB24343C24003C132B /* Peso.swift */; };
+		6330F6FE24343D16003C132B /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330F6FD24343D16003C132B /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6330F6E7243439F4003C132B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6330F6EA243439F4003C132B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6330F6EC243439F4003C132B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6330F6F324343A3D003C132B /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		6330F6F524343A47003C132B /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Regular.ttf"; sourceTree = "<group>"; };
+		6330F6F724343A5E003C132B /* Colores.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colores.xcassets; sourceTree = "<group>"; };
+		6330F6F924343B95003C132B /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		6330F6FB24343C24003C132B /* Peso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peso.swift; sourceTree = "<group>"; };
+		6330F6FD24343D16003C132B /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,15 @@
 		6330F6DD243439F2003C132B /* Tareas-Arreglo */ = {
 			isa = PBXGroup;
 			children = (
+				6330F6F224343A0E003C132B /* Fonts */,
 				6330F6DE243439F2003C132B /* AppDelegate.swift */,
 				6330F6E0243439F2003C132B /* SceneDelegate.swift */,
 				6330F6E2243439F2003C132B /* ContentView.swift */,
+				6330F6F924343B95003C132B /* Categoria.swift */,
+				6330F6FB24343C24003C132B /* Peso.swift */,
+				6330F6FD24343D16003C132B /* Modifiers.swift */,
 				6330F6E4243439F4003C132B /* Assets.xcassets */,
+				6330F6F724343A5E003C132B /* Colores.xcassets */,
 				6330F6E9243439F4003C132B /* LaunchScreen.storyboard */,
 				6330F6EC243439F4003C132B /* Info.plist */,
 				6330F6E6243439F4003C132B /* Preview Content */,
@@ -73,6 +90,15 @@
 				6330F6E7243439F4003C132B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6330F6F224343A0E003C132B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6330F6F324343A3D003C132B /* Baloo2-Bold.ttf */,
+				6330F6F524343A47003C132B /* Baloo2-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6330F6F424343A3D003C132B /* Baloo2-Bold.ttf in Resources */,
 				6330F6EB243439F4003C132B /* LaunchScreen.storyboard in Resources */,
 				6330F6E8243439F4003C132B /* Preview Assets.xcassets in Resources */,
+				6330F6F824343A5E003C132B /* Colores.xcassets in Resources */,
+				6330F6F624343A47003C132B /* Baloo2-Regular.ttf in Resources */,
 				6330F6E5243439F4003C132B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6330F6DF243439F2003C132B /* AppDelegate.swift in Sources */,
+				6330F6FA24343B95003C132B /* Categoria.swift in Sources */,
+				6330F6FC24343C24003C132B /* Peso.swift in Sources */,
 				6330F6E1243439F2003C132B /* SceneDelegate.swift in Sources */,
+				6330F6FE24343D16003C132B /* Modifiers.swift in Sources */,
 				6330F6E3243439F2003C132B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
